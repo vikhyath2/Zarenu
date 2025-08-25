@@ -1,0 +1,140 @@
+.search-bar {
+  align-items: center;
+  background-color: #ece6f0;
+  border-radius: 28px;
+  display: flex;
+  gap: 4px;
+  height: 56px;
+  max-width: 720px;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+
+.search-bar .div {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 4px;
+  position: relative;
+}
+
+.search-bar .img {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.search-bar .icon-2 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.search-bar .class-20 {
+  margin-left: -16px !important;
+}
+
+.search-bar .supporting-text-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  margin-left: -16px;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.search-bar .supporting-text {
+  color: #49454f;
+  font-family: var(--m3-body-large-font-family);
+  font-size: var(--m3-body-large-font-size);
+  font-style: var(--m3-body-large-font-style);
+  font-weight: var(--m3-body-large-font-weight);
+  letter-spacing: var(--m3-body-large-letter-spacing);
+  line-height: var(--m3-body-large-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.search-bar .trailing-elements {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 4px;
+}
+
+.search-bar .avatar-target {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  padding: 0px 12px 0px 8px;
+  position: relative;
+}
+
+.search-bar .avatar {
+  background-color: #6750a4;
+  border-radius: 15px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+}
+
+.search-bar .initial {
+  color: #ffffff;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  left: -5px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: -6px;
+  width: 40px;
+}
+
+.search-bar .trailing-elements-2 {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 4px;
+}
+
+.search-bar .state-hovered {
+  background-color: #1d1b2014;
+}
+
+.search-bar .state-pressed {
+  background-color: #1d1b2014;
+}
+
+.search-bar .show-avatar-false {
+  left: 308px;
+}
+
+.search-bar .show-avatar-true {
+  left: 258px;
+}
+
+.search-bar .show-avatar-0-false {
+  left: 308px;
+}
+
+.search-bar .show-avatar-0-true {
+  left: 258px;
+}

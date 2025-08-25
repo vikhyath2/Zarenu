@@ -1,0 +1,1 @@
+export { BuildingBlocksIcon } from "./BuildingBlocksIcon";

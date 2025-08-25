@@ -1,0 +1,61 @@
+.button-danger {
+  all: unset;
+  align-items: center;
+  border-radius: var(--size-radius-200);
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: var(--size-space-200);
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.button-danger .button {
+  font-family: var(--single-line-body-base-font-family);
+  font-size: var(--single-line-body-base-font-size);
+  font-style: var(--single-line-body-base-font-style);
+  font-weight: var(--single-line-body-base-font-weight);
+  letter-spacing: var(--single-line-body-base-letter-spacing);
+  line-height: var(--single-line-body-base-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-danger.primary {
+  border-color: var(--color-border-danger-secondary);
+}
+
+.button-danger.primary {
+  background-color: var(--color-background-danger-default);
+}
+
+.button-danger.disabled-true.subtle {
+  background-color: var(--color-background-danger-tertiary-hover);
+  border-color: var(--color-border-danger-default);
+}
+
+.button-danger.subtle {
+}
+
+.button-danger.disabled-true.subtle .button {
+  color: var(--color-text-disabled-default);
+}
+
+.button-danger.disabled-true.primary .button {
+  color: var(--color-text-disabled-on-disabled);
+}
+
+.button-danger:hover {
+  border: 1px solid;
+  border-color: var(--color-border-danger-default);
+}
+
+.button-danger:hover.subtle {
+  background-color: var(--color-background-danger-tertiary-hover);
+}
+
+.button-danger:hover.primary {
+  background-color: var(--color-background-danger-hover);
+}

@@ -1,0 +1,393 @@
+.icon-button {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-button .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon-button .icon-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.icon-button .class {
+  height: 40px !important;
+  position: relative !important;
+  width: 40px !important;
+}
+
+.icon-button .class-2 {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.icon-button .class-3 {
+  height: 24px !important;
+  margin-left: -8.00px !important;
+  margin-right: -8.00px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button .class-4 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.icon-button .class-5 {
+  height: 40px !important;
+  margin-left: -16.00px !important;
+  margin-right: -16.00px !important;
+  position: relative !important;
+  width: 40px !important;
+}
+
+.icon-button .class-6 {
+  height: 32px !important;
+  margin-left: -16.00px !important;
+  margin-right: -16.00px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.icon-button .class-7 {
+  height: 24px !important;
+  margin-left: -4.00px !important;
+  margin-right: -4.00px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button .class-8 {
+  height: 24px !important;
+  margin-bottom: -2.00px !important;
+  margin-top: -2.00px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button .class-9 {
+  height: 24px !important;
+  margin-bottom: -2.00px !important;
+  margin-left: -2.00px !important;
+  margin-right: -2.00px !important;
+  margin-top: -2.00px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button .class-10 {
+  height: 24px !important;
+  margin-bottom: -2.00px !important;
+  margin-left: -6.00px !important;
+  margin-right: -6.00px !important;
+  margin-top: -2.00px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button .class-11 {
+  height: 20px !important;
+  margin-bottom: -4.00px !important;
+  margin-top: -4.00px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.icon-button .class-12 {
+  height: 20px !important;
+  margin-bottom: -4.00px !important;
+  margin-left: -4.00px !important;
+  margin-right: -4.00px !important;
+  margin-top: -4.00px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.icon-button .class-13 {
+  height: 20px !important;
+  margin-bottom: -4.00px !important;
+  margin-left: -6.00px !important;
+  margin-right: -6.00px !important;
+  margin-top: -4.00px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.icon-button .icon-18 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.icon-button .building-blocks-icon-button-small-standard {
+  flex: unset !important;
+  flex-grow: unset !important;
+  height: 40px !important;
+  padding: unset !important;
+}
+
+.icon-button .class-14 {
+  border-radius: 12px !important;
+  display: flex !important;
+  height: unset !important;
+  overflow: hidden !important;
+  width: 40px !important;
+}
+
+.icon-button .class-15 {
+  border-radius: 12px !important;
+  display: flex !important;
+  height: unset !important;
+  overflow: hidden !important;
+  width: 32px !important;
+}
+
+.icon-button .class-16 {
+  border-radius: 100px !important;
+  display: flex !important;
+  height: unset !important;
+  overflow: hidden !important;
+  width: 52px !important;
+}
+
+.icon-button .class-17 {
+  border-radius: 100px !important;
+  display: flex !important;
+  height: unset !important;
+  overflow: hidden !important;
+  width: 40px !important;
+}
+
+.icon-button .class-18 {
+  border-radius: 100px !important;
+  display: flex !important;
+  height: unset !important;
+  overflow: hidden !important;
+  width: 32px !important;
+}
+
+.icon-button .class-19 {
+  border-radius: 12px !important;
+  display: flex !important;
+  height: unset !important;
+  overflow: hidden !important;
+  width: 52px !important;
+}
+
+.icon-button.large {
+  display: inline-flex;
+}
+
+.icon-button.small {
+  display: flex;
+  height: 48px;
+}
+
+.icon-button.x-large {
+  display: inline-flex;
+}
+
+.icon-button.medium {
+  display: inline-flex;
+}
+
+.icon-button.x-small {
+  display: flex;
+  height: 48px;
+  width: 48px;
+}
+
+.icon-button.small.width-default {
+  width: 48px;
+}
+
+.icon-button.width-narrow.small {
+  width: 48px;
+}
+
+.icon-button.small.width-wide {
+  width: 52px;
+}
+
+.icon-button .round {
+  border-radius: 100px;
+}
+
+.icon-button .filled {
+  background-color: #6750a4;
+}
+
+.icon-button .tonal {
+  background-color: #e8def8;
+}
+
+.icon-button .outline {
+  border-color: #cac4d0;
+}
+
+.icon-button .width-0-default.size-medium {
+  width: 56px;
+}
+
+.icon-button .size-small.width-0-default {
+  width: 40px;
+}
+
+.icon-button .width-0-wide.size-large {
+  width: 128px;
+}
+
+.icon-button .width-0-narrow.size-medium {
+  width: 48px;
+}
+
+.icon-button .outline.size-small {
+  border: 1px solid;
+}
+
+.icon-button .outline.size-medium {
+  border: 1px solid;
+}
+
+.icon-button .width-0-narrow.size-x-large {
+  width: 104px;
+}
+
+.icon-button .width-0-wide.size-medium {
+  width: 72px;
+}
+
+.icon-button .square.size-large {
+  border-radius: 28px;
+}
+
+.icon-button .size-x-large.width-0-default {
+  width: 136px;
+}
+
+.icon-button .square.size-medium {
+  border-radius: 16px;
+}
+
+.icon-button .square.size-x-large {
+  border-radius: 28px;
+}
+
+.icon-button .width-0-default.size-large {
+  width: 96px;
+}
+
+.icon-button .square.size-small {
+  border-radius: 12px;
+}
+
+.icon-button .size-x-large.width-0-wide {
+  width: 184px;
+}
+
+.icon-button .size-x-small.square {
+  border-radius: 12px;
+}
+
+.icon-button .width-0-narrow.size-large {
+  width: 64px;
+}
+
+.icon-button .size-small.width-0-wide {
+  width: 52px;
+}
+
+.icon-button .size-x-small.width-0-wide {
+  width: 40px;
+}
+
+.icon-button .outline.size-large {
+  border: 2px solid;
+}
+
+.icon-button .size-x-small.width-0-narrow {
+  width: 28px;
+}
+
+.icon-button .size-x-small.width-0-default {
+  width: 32px;
+}
+
+.icon-button .width-0-narrow.size-small {
+  width: 32px;
+}
+
+.icon-button .size-x-small.outline {
+  border: 1px solid;
+}
+
+.icon-button .outline.size-x-large {
+  border: 2px solid;
+}
+
+.icon-button .content.size-large .icon-wrapper {
+  height: 96px;
+}
+
+.icon-button .content.size-small .icon-wrapper {
+  height: 40px;
+}
+
+.icon-button .content.size-x-large .icon-wrapper {
+  height: 136px;
+}
+
+.icon-button .content.size-medium .icon-wrapper {
+  height: 56px;
+}
+
+.icon-button .content.size-x-small .icon-wrapper {
+  height: 32px;
+}
+
+.icon-button .content.size-small.tonal .icon-wrapper {
+  padding: 10px;
+}
+
+.icon-button .content.tonal.size-medium .icon-wrapper {
+  padding: 16px;
+}
+
+.icon-button .content.size-x-large.tonal .icon-wrapper {
+  padding: 48px;
+}
+
+.icon-button .content.tonal.size-large .icon-wrapper {
+  padding: 32px;
+}
+
+.icon-button .content.size-x-small.tonal .icon-wrapper {
+  padding: 10px;
+}
+
+.icon-button .content.outline.width-0-wide.size-medium .icon-wrapper {
+  padding: 16px 32px;
+}
+
+.icon-button .content.standard.width-0-wide.size-medium .icon-wrapper {
+  padding: 16px 32px;
+}
+
+.icon-button .content.width-0-wide.size-medium.filled .icon-wrapper {
+  padding: 16px 32px;
+}

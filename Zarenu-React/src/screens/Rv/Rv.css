@@ -1,0 +1,548 @@
+/* Recruit Volunteers Page - CSS Styles */
+
+/* Base Styles */
+.zare-nu {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Inter", Helvetica, sans-serif;
+}
+
+/* Header Section */
+.header {
+  background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+  padding: 14px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.logo-link:hover {
+  transform: scale(1.05);
+}
+
+.logo-link:hover .logo {
+  opacity: 0.8;
+}
+
+.logo {
+  height: 76px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-link {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #f70707;
+}
+
+.donate-btn {
+  background: linear-gradient(135deg, #ff4757, #ff3838);
+  border: none;
+  border-radius: 25px;
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(255, 56, 56, 0.3);
+  transition: transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 56, 56, 0.4);
+}
+
+/* Page Header */
+.page-header {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+              url('/img/whatsapp-image-2025-06-09-at-1-24-07-pm-1.png');
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: clamp(36px, 6vw, 64px);
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.page-subtitle {
+  font-size: clamp(18px, 3vw, 24px);
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Main Content */
+.recruit-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 36px);
+  color: #f70707;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.section-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Benefits Section */
+.benefits-section {
+  background: linear-gradient(135deg, #f8f9ff, #e8f2ff);
+  padding: 60px 40px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.benefit-card h3 {
+  color: #f70707;
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.benefit-card p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Process Section */
+.process-section {
+  margin-bottom: 80px;
+}
+
+.process-steps {
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: rgba(247, 7, 7, 0.05);
+  border-radius: 15px;
+  border-left: 5px solid #f70707;
+}
+
+.step-number {
+  background: linear-gradient(135deg, #f70707, #d60606);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.step-content h3 {
+  color: #f70707;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.step-content p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Organization Types Section */
+.org-types-section {
+  background: linear-gradient(135deg, #fff5f5, #ffe8e8);
+  padding: 60px 40px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+.org-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.org-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.org-card:hover {
+  transform: translateY(-5px);
+}
+
+.org-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.org-card h3 {
+  color: #f70707;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.org-card p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 14px;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #ff4757, #ff4757);
+  color: white;
+  padding: 80px 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.cta-content h2 {
+  font-size: clamp(28px, 5vw, 42px);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta-content p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-btn {
+  padding: 18px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cta-btn.primary {
+  background: white;
+  color: #f70707;
+}
+
+.cta-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255,255,255,0.3);
+}
+
+.cta-btn.secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.cta-btn.secondary:hover {
+  background: white;
+  color: #f70707;
+  transform: translateY(-2px);
+}
+
+/* Success Stories Section */
+.success-section {
+  margin-bottom: 80px;
+}
+
+.success-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.success-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  border-left: 5px solid #f70707;
+}
+
+.quote {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote::before {
+  content: '"';
+  font-size: 2em;
+  color: #f70707;
+  line-height: 0;
+}
+
+.quote::after {
+  content: '"';
+  font-size: 2em;
+  color: #f70707;
+  line-height: 0;
+}
+
+.author strong {
+  color: #f70707;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.author span {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Footer Styles */
+.footer-container {
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 80px;
+  clear: both;
+}
+
+.footer-links {
+  background: #ffb1b1;
+  padding: 40px 20px;
+}
+
+.footer-links-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.footer-column h4 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-column a {
+  color: #f70707;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #d60606;
+}
+
+.footer-legal {
+  background: #ffb1b1;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.footer-legal p {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.footer-legal a {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .nav-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .recruit-content {
+    padding: 60px 20px;
+  }
+
+  .benefits-grid,
+  .org-grid,
+  .success-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .benefits-section,
+  .org-types-section,
+  .cta-section {
+    padding: 40px 20px;
+  }
+
+  .step {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header {
+    padding: 60px 20px;
+  }
+
+  .recruit-content {
+    padding: 40px 15px;
+  }
+
+  .benefits-section,
+  .org-types-section,
+  .cta-section {
+    padding: 40px 20px;
+  }
+
+  .success-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-group {
+    gap: 10px;
+  }
+
+  .nav-link, .donate-btn {
+    font-size: 14px;
+  }
+
+  .donate-btn {
+    padding: 0 15px;
+    height: 35px;
+  }
+}

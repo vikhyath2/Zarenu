@@ -1,0 +1,1 @@
+export { PlatformWhatsappColorOriginal } from "./PlatformWhatsappColorOriginal";
