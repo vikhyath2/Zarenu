@@ -5,6 +5,8 @@ import { SearchBar } from "../../components/SearchBar";
 import { Icon137 } from "../../icons/Icon137";
 import { Search } from "../../icons/Search";
 import { submitContactForm } from '../../lib/api'
+import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export const ZareNu = () => {
@@ -140,12 +142,12 @@ export const ZareNu = () => {
           <img className="logo" alt="Logo" src="/img/logo-3.png" />
 
           <nav className="nav-group">
-            <a className="nav-link" href="/fo">Find Opportunities</a>
-            <a className="nav-link" href="/rv">Recruit Volunteer</a>
-            <a className="nav-link active" href="/about">About</a>
-            <a className="nav-link" href="/login">Log In</a>
-            <a className="donate-btn" href="/donate">❤️ Donate</a>
-          </nav>
+           <Link className="nav-link" to="/fo">Find Opportunities</Link>
+           <Link className="nav-link" to="/rv">Recruit Volunteer</Link>
+           <Link className="nav-link active" to="/about">About</Link>
+           <Link className="nav-link" to="/login">Log In</Link>
+           <Link className="donate-btn" to="/donate">❤️ Donate</Link>
+         </nav>
         </div>
       </header>
 
