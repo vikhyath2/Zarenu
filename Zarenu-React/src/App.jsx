@@ -9,18 +9,13 @@ import { ZareNu } from "./screens/ZareNu";
 
 const router = createHashRouter([
   {
-    path: "/*",
+    path: "/",
     element: <ZareNu />,
   },
   {
-    path: "/zare-nu",
-    element: <ZareNu />,
+    path: "/fo",         
+    element: <Fo />,
   },
-  {
-    path: "/sign-up",
-    element: <SignUp />,
-  },
-  
   {
     path: "/rv",
     element: <Rv />,
@@ -30,12 +25,12 @@ const router = createHashRouter([
     element: <About />,
   },
   {
-    path: "/login",
+    path: "/login",       
     element: <Login />,
   },
   {
-    path: "/fo",
-    element: <Fo />,
+    path: "/sign-up",
+    element: <SignUp />,
   },
 ]);
 
