@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import { About } from "./screens/About";
 import { Fo } from "./screens/Fo";
 import { Login } from "./screens/Login";
@@ -7,7 +7,7 @@ import { Rv } from "./screens/Rv";
 import { SignUp } from "./screens/SignUp";
 import { ZareNu } from "./screens/ZareNu";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/*",
     element: <ZareNu />,
@@ -42,3 +42,4 @@ const router = createBrowserRouter([
 export const App = () => {
   return <RouterProvider router={router} />;
 };
+
